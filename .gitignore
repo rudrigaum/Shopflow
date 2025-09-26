@@ -1,0 +1,30 @@
+# .gitignore for Xcode projects
+
+## User-specific files
+*.xcuserdatad
+*.xcworkspace
+
+## Build generated
+build/
+DerivedData/
+
+## Swift Package Manager
+/.swiftpm
+/Packages
+/*.resolved
+
+## Cocoapods (if you were to use them)
+/Pods
+/Podfile.lock
+
+## Carthage (if you were to use them)
+/Carthage
+
+## Fastlane (for CI/CD)
+/fastlane/report.xml
+/fastlane/Preview.html
+/fastlane/screenshots
+/fastlane/test_output
+
+## Temporary files
+.DS_Store
