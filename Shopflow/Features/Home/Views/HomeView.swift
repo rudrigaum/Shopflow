@@ -17,6 +17,7 @@ final class HomeView: UIView {
         let cv = UICollectionView(frame: .zero, collectionViewLayout: layout)
         cv.translatesAutoresizingMaskIntoConstraints = false
         cv.backgroundColor = .clear
+        cv.register(ProductCell.self, forCellWithReuseIdentifier: ProductCell.identifier)
         return cv
     }()
     
